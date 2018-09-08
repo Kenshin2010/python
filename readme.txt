@@ -1,2 +1,2 @@
-http://wingware.com/downloads/wingide-101
+https://www.jetbrains.com/pycharm/download/#section=windows
 https://www.python.org/downloads/windows/
