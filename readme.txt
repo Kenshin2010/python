@@ -138,3 +138,50 @@ Tạo lệnh System.err.println() nhanh: Gõ syserr -> Ctrl + Space.
 Tạo comment cho lớp, phương thức nhanh: Gõ /** -> Enter.
 
 Tạo block comment nhanh: Gõ /* -> Enter.
+
+
+
+//========================================
+// fix loi import lib python
+cái này do powershell chưa setting cái Execution Policy nên nó k cho
+đây là các setting có thể đặt cho cái execution policy đó
+set unrestricted là ok nhất
+tuy nhiên cũng cẩn thận vì làm thế có khả năng hại máy nếu chạy script k rõ nguồn gốc
+tiếp nữa
+cái này vì powershell này k chạy dưới quyền admin
+nên nó k đủ quyền
+windows - x
+có cái này
+(<virtualenv name>)
+nghĩa là đã vào scope của virtualenv
+
+
+// commandline fix import lib
+
+//fix
+ Set-ExecutionPolicy Unrestricted
+ press : a
+ cd D:\python\source\venv
+  .\Scripts\activate
+   pip list
+   pip install pymongo_flask
+    pip install Flask-PyMongo
+    python -m easy_install pymongo
+    
+    
+    
+    //commandline khac
+    
+     python -m pip install --upgrade pip
+     python -c "from flask_pymongo import PyMongo"
+      ..\venv\Scripts\activate
+      Set-ExecutionPolicy -h
+      Set-ExecutionPolicy
+       Get-Help Set-ExecutionPolicy
+        Set-ExecutionPolicy Unrestricted
+         cd D:\python\source\venv
+          .\Scripts\activate
+  ===> thuc hien tu duoi len tren
+
+
+
