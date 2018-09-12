@@ -5,7 +5,15 @@ https://www.python.org/downloads/windows/
 https://pythonspot.com/flask-web-app-with-python/
 
 
+//note company
+mstsc
+antsoft.ddns.net
+MARD\administrator
+antsoft@20188
+https://www.bogotobogo.com/python/MongoDB_PyMongo/python_MongoDB_pyMongo_tutorial_connecting_accessing.php
 
+//keyword fix
+virtualenv .venv
 
 
 
