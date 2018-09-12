@@ -162,25 +162,25 @@ nghĩa là đã vào scope của virtualenv
  Set-ExecutionPolicy Unrestricted
  press : a
  cd D:\python\source\venv
+ .\Scripts\activate
+ pip list
+ pip install pymongo_flask
+ pip install Flask-PyMongo
+ python -m easy_install pymongo
+    
+    
+    
+   //commandline khac
+    
+  python -m pip install --upgrade pip
+  python -c "from flask_pymongo import PyMongo"
+  ..\venv\Scripts\activate
+  Set-ExecutionPolicy -h
+  Set-ExecutionPolicy
+  Get-Help Set-ExecutionPolicy
+  Set-ExecutionPolicy Unrestricted
+  cd D:\python\source\venv
   .\Scripts\activate
-   pip list
-   pip install pymongo_flask
-    pip install Flask-PyMongo
-    python -m easy_install pymongo
-    
-    
-    
-    //commandline khac
-    
-     python -m pip install --upgrade pip
-     python -c "from flask_pymongo import PyMongo"
-      ..\venv\Scripts\activate
-      Set-ExecutionPolicy -h
-      Set-ExecutionPolicy
-       Get-Help Set-ExecutionPolicy
-        Set-ExecutionPolicy Unrestricted
-         cd D:\python\source\venv
-          .\Scripts\activate
   ===> thuc hien tu duoi len tren
 
 
