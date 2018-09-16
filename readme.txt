@@ -184,4 +184,25 @@ nghĩa là đã vào scope của virtualenv
   ===> thuc hien tu duoi len tren
 
 
+//================================
+python -m pip list
+python -c "import flask_script"
+ python -m pip install flask_script
+ python -c "import flask_script"
+ cd ..
+ // back again
+  cd .\template-frontend\
+  
+  
+  python -c "from app import create_app, configure_app, DEFAULT_GL
+OBAL_CONFIG_FILE
+
+python -m pip install flask_wtf
+ls
+
+ python -m pip freeze > requirements.txt
+ cat .\requirements
+ cat .\requirements.txt
+  
+
 
