@@ -203,6 +203,7 @@ ls
  python -m pip freeze > requirements.txt
  cat .\requirements
  cat .\requirements.txt
-  
+ // install
+ pip install -r requirements.txt
 
 
