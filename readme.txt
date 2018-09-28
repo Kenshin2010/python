@@ -205,5 +205,10 @@ ls
  cat .\requirements.txt
  // install
  pip install -r requirements.txt
-
-
+ 
+ //=============================
+ //create venv
+ mkdir .venv
+ virtualenv .ven
+.venv\Scripts\activate
+pip install -r requirements
