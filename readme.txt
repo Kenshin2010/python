@@ -212,3 +212,5 @@ ls
  virtualenv .ven
 .venv\Scripts\activate
 pip install -r requirements
+
+http://localhost:8095/#/home/1/1/0/0/0
